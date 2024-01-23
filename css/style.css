@@ -1,0 +1,176 @@
+*{
+    font-family: 'Oswald', sans-serif;
+   
+    
+}
+/*inicio de header html1*/
+.logo-tipo{
+    width: 5rem;
+  border-radius: 50%;
+
+}
+.fondo{
+  background-image: url(../img/fondo-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ 
+ 
+ 
+}
+@media only screen and (min-width: 500px){
+  .fondo{
+    background-image: url(../img/fondo-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+  }
+
+}
+
+
+.bruno{
+  font-size: 80px;
+  text-decoration: rgb(5, 5, 5);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+ text-decoration: solid;
+
+  
+  }
+/* fin del header*/
+
+/*inicio del main html1*/
+.titulo-main{
+  margin-top: 1rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+ text-decoration: solid;
+}
+
+.text-black{
+  font-size: 20px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+ text-decoration: solid;
+}
+/*fin del main*/
+
+/*inicio del footer html1*/
+
+.img-1{
+width: 7rem;
+}
+
+.img-1:hover{
+  width: 4.5rem;
+  
+}
+
+.img-2{
+  width: 9rem;
+}
+
+.img-2:hover{
+  width: 4.5rem;
+  
+}
+/*fin del footer*/
+
+
+/* segundo html: componentes*/
+
+/*inicio del main*/
+.imagen-producto{
+  width: 10rem;
+}
+
+.card-producto{
+  transition: all .2s;
+}
+.card-producto:hover{
+  transform: scale(1.2);
+
+}
+
+.elemento-padre{
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media only screen and (min-width: 500px){
+  .elemento-padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+  
+  }
+}
+/* inicio del segundo footer*/
+.derechos{
+  text-transform: uppercase;
+  font-weight: bold;
+ text-decoration: solid;
+ margin-top: 15px;
+
+}
+
+/*tercer html*/
+/*inicio del main*/
+.tañus{
+  width: 18rem;
+}
+
+.escribir{
+  font-size: 20px;
+  text-align: center;
+}
+
+/*cuarto html*/
+/*main*/
+
+.fondos{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  width: 100%;
+  
+}
+@media only screen and (min-width: 300px) and (max-width: 700px){
+  .fondos{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+    
+
+  }
+}
+
+.margen-card{
+   border: solid black;
+}
+
+
+/*quinto html*/
+.fondiu{
+  width: 100%;
+  height: 75vh;
+  align-content: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px){
+  .fondiu{
+    width: 100%;
+    height: 40vh;
+    align-content: center;
+  }
+}
